@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css" type="text/css" />
+    <link rel="icon" type="image/png" href="slike/fav.png">
+    <title>Blue Bricks</title>
+</head>
+
+<body onload="init()">
+
+    <div id="podatki">
+        <div class="poravnava">
+            <p >Čas:</p>
+            <p id="cas">00:00</p>
+        </div>
+        <div class="poravnava">
+            <p>Točke:</p>
+            <p id="točke">000</p>
+        </div>
+        <div class="poravnava">
+            <p >Življenja:</p>
+            <p id="zivljenja">3</p>
+        </div>
+    </div>
+
+    <canvas id="canvas" width="1000px" height="600px"></canvas>
+    <div id="gumbi">
+        
+		
+        <button id="igraj" class="gumb" onclick="igraj()">Igraj</button>
+        <button id="stop" class="gumb" onclick="stop()">Stop</button>
+        <button id="oIgri" class="gumb" onclick="oIgri()">O igri</button>
+    </div>
+
+
+    <script type="text/javascript" src="js/javaScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.6/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

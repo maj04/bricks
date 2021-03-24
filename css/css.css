@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+  background-image: url("../slike/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Inter', sans-serif;
+}
+
+canvas{
+	margin:1rem;
+  display: block;
+  background-color: rgb(255, 255, 255,0.9);
+	border-radius:5px;
+}
+
+#podatki{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  background-color:#f2f2f2;
+  width:100%;
+  position:block;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  border-radius:0px 0px 5px 5px;
+  padding:1rem;
+  color:rgb(38, 57, 115);
+  
+}
+
+.poravnava{
+  display:inline;
+}
+
+#gumbi{
+	display:flex;
+  align-items:center;
+  justify-content:space-around;
+  width:460px;
+  height: 100px;
+}
+
+#stop{
+  display:none;
+
+}
+
+.gumb{
+	font-family: 'Inter', sans-serif;
+  background-color: rgb(38, 57, 115);
+  color:#f2f2f2;
+  border-style: none;
+  width:150px;
+  height:40px;
+  outline: none;
+  border-radius:5px;
+}
+
+.gumb:hover{
+  background-color: #4A5B8C;
+  color:white;
+  }
